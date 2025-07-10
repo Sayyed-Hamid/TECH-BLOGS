@@ -1,0 +1,258 @@
+          /* navigation */
+
+.navbar{
+    background-color: rgb(212, 223, 223);
+    display: inline-block;
+    width: 100%;
+ 
+    box-shadow:  0px 12px 11px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    z-index: 1000;
+    height: 14%;
+    
+}
+
+.navicon{
+    padding: 6px 170px 0px 20px;
+   
+    margin-left: auto;
+    gap: 25px;
+    display: flex;
+   
+}
+
+.icon{
+    width: 20px;
+    
+    
+}
+
+
+
+a{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(10, 28, 70);
+  text-decoration: none;
+  
+
+}
+
+article a:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bolder;
+     
+     font-size: 1.02em;
+      color: #3f0404a9;
+}
+
+a:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bolder;
+     color: #928692;
+     
+}
+
+a:focus {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bolder;
+     font-weight: bolder  ;
+}
+
+a:active {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bolder;
+     color: #d2e00dd3;
+}
+
+.navbar a:visited {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bolder;
+     color: #18b85d85;
+
+}
+
+
+ a:visited {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bolder;
+     /* color: #410c76b7; */
+}
+
+
+
+
+/* ========= Reset & Base Styles ========= */
+body {
+    background-color: rgb(192, 218, 234);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ========= Headings ========= */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    color: #00203f;
+}
+
+.keyheading {
+    font-size: 40px;
+}
+
+.heading {
+    
+    
+   background-color: antiquewhite;
+   height: 50px;
+   display: inline-block;
+   width: 100%;
+   
+  
+   
+
+}
+.heading1{
+    
+display:block;
+text-align: center;
+ font-size: 230%;
+padding-bottom: 12px;
+font-family: postbook, sans-serif;
+
+ 
+
+}
+
+.blogheading {
+     font-family: postbook, sans-serif;
+   color: rgb(35, 119, 171);
+  text-decoration: none;
+    
+}
+
+
+.blogheading:hover {
+    font-family: postbook, sans-serif;
+   
+     color: #010c18;
+    
+     
+}
+
+/* ========= Main Layout ========= */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 130px;
+}
+
+.article-content {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    padding-top: 40px;
+     padding-bottom: 80px;
+
+}
+
+
+.article-main{
+display: block;
+    padding-top: 170px;
+}
+
+
+
+/* ========= Article Box ========= */
+article {
+    display: inline-block;
+    background-color: rgb(77, 133, 168);
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+article:hover {
+    background-color: rgb(17, 106, 162);
+    transform: translateY(-4px);
+    
+}
+
+/* ========= Article Image ========= */
+.article-img {
+    width: 100%;
+    height: 250px;
+    border-bottom: 2px solid #1e1e1e;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    object-fit:cover;
+    object-position: top right;
+
+}
+
+.article-img:hover {
+    transform: scale(1.006);
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.35);
+}
+
+/* ========= Text Elements ========= */
+
+
+
+.date {
+    margin-left: 15px;
+    padding: 12px;
+    margin-top: -50px;
+    font-size: 12px;
+    color: aliceblue;
+}
+
+.teasur {
+    padding-top: 29px;
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(245, 232, 232);
+}
+
+.h2-link {
+    display: block;
+}
+
+p {
+    color: #1e1e1e;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+/* ========= Banner HR ========= */
+.banner-hr {
+    margin-top: -40px;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(129, 138, 172);
+    border-color: rgb(88, 114, 206);
+    border-radius: 9999px;
+}
+
+/* ========= List ========= */
+li {
+    padding-bottom: 6px;
+    color: #5000b8aa;
+}
+
+/* ========= Responsive ========= */
+@media (max-width: 768px) {
+    .article-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@font-face {
+    font-family:'postbook' ;
+    src: url(Assits/Fonts/Postbook.ttf);
+}
