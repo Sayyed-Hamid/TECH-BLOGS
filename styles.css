@@ -1,7 +1,7 @@
           /* navigation */
 
 .navbar{
-    background-color: rgb(212, 223, 223);
+    background-color:#14151f;
     display: inline-block;
     width: 100%;
  
@@ -31,7 +31,7 @@
 
 a{
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-   color: rgb(10, 28, 70);
+   color:#ffffff;
   text-decoration: none;
   
 
@@ -42,13 +42,13 @@ article a:hover {
    font-weight: bolder;
      
      font-size: 1.02em;
-      color: #3f0404a9;
+      color: #d71921;
 }
 
 a:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-weight: bolder;
-     color: #928692;
+     color: #d71921;
      
 }
 
@@ -67,7 +67,7 @@ a:active {
 .navbar a:visited {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-weight: bolder;
-     color: #18b85d85;
+     color: #ffffff;
 
 }
 
@@ -83,7 +83,7 @@ a:active {
 
 /* ========= Reset & Base Styles ========= */
 body {
-    background-color: rgb(192, 218, 234);
+    background-color: #000000;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -94,17 +94,20 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 20px;
-    color: #00203f;
+    color:#c5c5c5 ;
 }
+
+
 
 .keyheading {
     font-size: 40px;
+    color:#d71921;
 }
 
 .heading {
     
     
-   background-color: antiquewhite;
+   background-color: rgb(255, 255, 255);
    height: 50px;
    display: inline-block;
    width: 100%;
@@ -155,7 +158,7 @@ main {
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
     padding-top: 40px;
-     padding-bottom: 80px;
+    padding-bottom: 80px;
 
 }
 
@@ -170,7 +173,7 @@ display: block;
 /* ========= Article Box ========= */
 article {
     display: inline-block;
-    background-color: rgb(77, 133, 168);
+    background-color:#14151f;
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.25);
@@ -178,10 +181,18 @@ article {
 }
 
 article:hover {
-    background-color: rgb(17, 106, 162);
+    background-color:#d71921;
     transform: translateY(-4px);
     
 }
+article:hover a{
+    color: #ffffff;
+}
+article a{
+    color: #d71921;
+}
+
+
 
 /* ========= Article Image ========= */
 .article-img {
@@ -215,7 +226,7 @@ article:hover {
     padding-top: 29px;
     padding-bottom: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(245, 232, 232);
+    color: rgb(255, 255, 255);
 }
 
 .h2-link {
@@ -223,7 +234,7 @@ article:hover {
 }
 
 p {
-    color: #1e1e1e;
+    color: #ffffff;
     padding: 15px;
     border-radius: 6px;
 }
@@ -241,7 +252,11 @@ p {
 /* ========= List ========= */
 li {
     padding-bottom: 6px;
-    color: #5000b8aa;
+    color: #cacaca;
+}
+
+.red{
+    color:#d71921;
 }
 
 /* ========= Responsive ========= */
