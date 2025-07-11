@@ -16,14 +16,14 @@
     padding: 6px 170px 0px 20px;
    
     margin-left: auto;
-    gap: 25px;
+    gap: 50px;
     display: flex;
    
 }
 
 .icon{
     width: 20px;
-    
+   
     
 }
 
@@ -120,8 +120,7 @@ h1, h2, h3, h4, h5, h6 {
     
 display:block;
 text-align: center;
- font-size: 230%;
-padding-bottom: 12px;
+font-size: 230%;
 font-family: postbook, sans-serif;
 
  
@@ -130,9 +129,17 @@ font-family: postbook, sans-serif;
 
 .blogheading {
      font-family: postbook, sans-serif;
-   color: rgb(35, 119, 171);
+   color:#d71921;
   text-decoration: none;
     
+}
+
+.heading1 a{
+    color:#d71921;
+}
+
+.heading1 a:visited{
+    color:#d71921;
 }
 
 
